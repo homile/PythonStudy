@@ -1,0 +1,7 @@
+(6/25)
+1. 문자열 다루기 기본
+   isdigit(), isnumeric(), isdecimal() 함수를 사용해서 숫자인지 구별 가능
+
+   https://m.blog.naver.com/wjswhdgns78/221914762969
+   https://www.delftstack.com/ko/howto/python/python-check-if-string-is-integer/#%25EC%25A0%2595%25EA%25B7%259C%25EC%258B%259D%25EC%259D%2584-%25EC%2582%25AC%25EC%259A%25A9%25ED%2595%2598%25EC%2597%25AC-python%25EC%2597%2590%25EC%2584%259C-%25EB%25AC%25B8%25EC%259E%2590%25EC%2597%25B4%25EC%259D%25B4-%25EC%25A0%2595%25EC%2588%2598%25EC%259D%25B8%25EC%25A7%2580-%25ED%2599%2595%25EC%259D%25B8
+   http://goo.gl/IjKPF6
