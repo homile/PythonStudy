@@ -1,6 +1,6 @@
 # k번째수
 
-# 문제설명: 
+# 문제설명: https://programmers.co.kr/learn/courses/30/lessons/42748
 
 # 문제접근
 # 슬라이싱 기법을 사용한 풀이
