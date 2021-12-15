@@ -1,0 +1,31 @@
+```
+def solution(n, arr1, arr2):
+    answer = []   
+    
+    for i in range(n):
+        a = ''
+        b = ''
+        
+        while arr1[i]:
+            a += str(arr1[i]%2)
+            arr1[i] = arr1[i]//2
+        a = a[::-1]       
+
+ while arr2[i]:
+            b += str(arr2[i]%2)
+            arr2[i] = arr2[i]//2
+        b = b[::-1]
+            
+        a,b = a.rjust(n,'0'),b.rjust(n,'0')
+        
+        temp = ''
+        print(a,b)
+        for j in range(n):
+            if a[j] == '1' or b[j] == '1':
+                temp += '#'
+            elif a[j] == '0' and b[j] == '0':
+                temp += ' '
+        answer.append(temp)
+        
+return answer
+```
