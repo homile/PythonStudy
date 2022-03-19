@@ -89,10 +89,12 @@ def solution(m, n, board):
     # 이동
     for i in range(n):
       stack = []
+      # 맨 밑에서부터 블록이 비었는지 확인 후 있다면 stack에 append
       for j in range(m-1, -1, -1):
         if board[j][i] != ' ':
           stack.append(board[j][i])
       # print(stack)
+      # 맨 밑에서부터 stack에 있는 값을 삽입
       for k in range(m-1, -1, -1):
         if len(stack) != 0:
           board[k][i] = stack.pop(0)
