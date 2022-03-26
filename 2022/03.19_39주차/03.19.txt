@@ -1,0 +1,11 @@
+```
+(03.19) 풀어 볼 문제 3개 : (03.26)까지 풀어오세용
+리트코드: https://leetcode.com/problemset/algorithms
+
+프로그래머스: https://programmers.co.kr/
+
+백준: https://code.plus/course/41
+1. 스택 수열
+2. 에디터
+3. 큐
+```
