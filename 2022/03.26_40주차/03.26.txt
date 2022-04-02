@@ -1,0 +1,11 @@
+```
+(03.26) 풀어 볼 문제 3개 : (04.01)까지 풀어오세용
+리트코드: https://leetcode.com/problemset/algorithms
+1. Longest Common Prefix
+2. Valid Parentheses
+3. Longest Palindromic Substring
+
+프로그래머스: https://programmers.co.kr/
+
+백준: https://code.plus/course/41
+```
