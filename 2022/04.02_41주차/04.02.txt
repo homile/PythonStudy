@@ -1,0 +1,10 @@
+```
+(04.02) 풀어 볼 문제 3개 : (04.09)까지 풀어오세용
+리트코드: https://leetcode.com/problemset/algorithms
+
+프로그래머스: https://programmers.co.kr/
+1. 거리두기 확인하기
+2. 양궁대회
+
+백준: https://code.plus/course/41
+```
