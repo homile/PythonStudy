@@ -55,7 +55,7 @@ def dfs(n, info, index, lion_score_board):
    if n == 0:
       # print(lion_score_board)
       global maxScore, maxList
-      lion_socre, apeach_score = 0, 0
+      lion_score, apeach_score = 0, 0
 
       for i in range(11):
          # print(lion_socre, apeach_score)
@@ -64,14 +64,17 @@ def dfs(n, info, index, lion_score_board):
 
          if lion_score_board[i] > info[i]:
             # i = 0부터시작 idex num = 0 = 10점
-            lion_socre += 10 - i
+            lion_score += 10 - i
          else:
             apeach_score += 10 - i
 
-      if lion_socre > apeach_score:
-         # print(lion_socre, lion_score_board)
-         maxScore = lion_socre
-         maxList = lion_score_board.copy()
+      if lion_score > apeach_score:
+         diff = lion_score - apeach_score
+         if diff > maxScore:
+            # print(lion_socre, lion_score_board)
+            maxScore = lion_score
+            # print(lion_score_board)
+            maxList = list(lion_score_board)
       
 
    # 0~10까지의 11개의 점수가 존재
