@@ -20,6 +20,10 @@
 
 #    return stack
 
+# print(solution([1,2,4], [1,3,4]))      # [1,1,2,3,4,4]
+# print(solution([], []))                # []   
+# print(solution([], [0]))               # [0]
+
 
 # 문제풀이(2)
 # Definition for singly-linked list.
@@ -80,6 +84,8 @@ class Solution:
       cur = head
 
       while l1 != None and l2 != None:
+         print("list1.val", l1.val)
+         print("list2.val", l2.val)
          if l1.val <= l2.val:
             cur.next = l1
             l1 = l1.next
@@ -95,19 +101,24 @@ class Solution:
       else:
          cur.next = l2
 
+      print("head", head.next.__dict__)
       return head.next
 
-input1 = ListNode(1)
-input1.next = ListNode(2)
-input1.next.next = ListNode(4)
+# 직관 적으로 ListNode 넣고 보기
+# input1 = ListNode(1)
+# input1.next = ListNode(2)
+# input1.next.next = ListNode(4)
 
-input2 = ListNode(1)
-input2.next = ListNode(3)
-input2.next.next = ListNode(4)
+# input2 = ListNode(1)
+# input2.next = ListNode(3)
+# input2.next.next = ListNode(4)
 
-result = Solution.solution(1, input1, input2)
+# result = Solution.solution(1, input1, input2)
 
-# print(solution([1,2,4], [1,3,4]))      # [1,1,2,3,4,4]
-# print(solution([], []))                # []   
-# print(solution([], [0]))               # [0]
+
+# ListNode 간편하게 값 넣고 보기
+print(Solution().solution(ListNode([1,2,4]), ListNode([1,3,4])).__dict__['next'].__dict__)
+
+
+
 # https://velog.io/@kgh732/Python-으로-푸는-Leetcode21.-Merge-Two-Sorted-Lists
