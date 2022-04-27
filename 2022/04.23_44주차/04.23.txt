@@ -1,0 +1,10 @@
+```
+(04.23) 풀어 볼 문제 2개 : (04.30)까지 풀어오세용
+리트코드: https://leetcode.com/problemset/algorithms
+
+프로그래머스: https://programmers.co.kr/
+1. 예상 대진표
+2. 교점에 별 만들기
+
+백준: https://code.plus/course/41
+```
