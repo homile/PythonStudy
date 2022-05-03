@@ -39,7 +39,7 @@ result = [-1 for i in range(n)]
 
 # 입력 값을 받아온다.
 number = list(map(int, input().split()))
-stack = []
+stack = [0]
 counter = Counter(number)
 
 for i in range(1, n):
