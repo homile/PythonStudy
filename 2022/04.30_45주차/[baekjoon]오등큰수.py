@@ -26,24 +26,28 @@
 # print(' '.join(result))
 
 # 시간초과 -> 2중 for문?
+# 검색 결과 -> count()의 시간 복잡도 = O(N^2)
+# count를 많이 사용하는 경우에는 collection 모듈의 Counter 클래스 사용
 
 
 # 문제풀이(2)
+from collections import Counter
 n = int(input())
 
 # -1로 n만큼 채운 배열을 하나 만든다.
-result = ['-1' for i in range(n)]
+result = [-1 for i in range(n)]
 
 # 입력 값을 받아온다.
-stack = list(map(int, input().split()))
+number = list(map(int, input().split()))
+stack = []
+counter = Counter(number)
 
-for i in range(n):
-   for j in range(i, len(stack)):
-      if stack.count(stack[i]) < stack.count(stack[j]):
-         result[i] = str(stack[j])
-         break
+for i in range(1, n):
+   while stack and counter[number[stack[-1]]] < counter[number[i]]:
+      result[stack.pop()] = number[i]
+   stack.append(i)
    
-print(' '.join(result))
+print(*result)
 
 
 
