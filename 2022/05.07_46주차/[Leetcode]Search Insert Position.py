@@ -23,11 +23,12 @@ def solution(nums, target):
    count = 0
    for i in nums:
       print(i, count)
+      # i가 target보다 커지면 count를 하나 증가시켜서 return
       if i > target:
          return count
       count += 1
 
-   return len(nums)
+   return len(nums) # 배열의 길이를 초과할 경우
 
 print(solution([1,3,5,6], 5)) # 2
 print(solution([1,3,5,6], 7)) # 4
