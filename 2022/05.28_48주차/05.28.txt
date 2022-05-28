@@ -1,0 +1,11 @@
+```
+(05.28) 풀어 볼 문제 3개 : (06.04)까지 풀어오세용
+리트코드: https://leetcode.com/problemset/algorithms
+
+프로그래머스: https://programmers.co.kr/
+
+백준: https://code.plus/course/41
+1. 후위 표기식2
+2. 후위 표기식
+3. 알파벳 개수
+```
