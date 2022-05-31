@@ -14,7 +14,12 @@ alphabet = [0] * 26
 for i in arr:
   alphabet[ord(i)-97] += 1
 
-print(alphabet)
+answer = ''
+
+for i in alphabet:
+  answer += str(i) +' '
+
+print(answer, end=' ')
 
 
 # 1 1 0 0 1 0 0 0 0 1 1 0 0 1 2 0 0 0 0 0 0 0 0 0 0 0
