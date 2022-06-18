@@ -1,0 +1,10 @@
+```
+(06.11) 풀어 볼 문제 2개 : (06.18)까지 풀어오세용
+리트코드: https://leetcode.com/problemset/algorithms
+
+프로그래머스: https://programmers.co.kr/
+1. 베스트앨범
+2. 정수 삼각형
+
+백준: https://code.plus/course/41
+```
