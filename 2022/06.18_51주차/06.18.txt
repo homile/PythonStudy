@@ -1,0 +1,11 @@
+```
+(06.18) 풀어 볼 문제 3개 : (06.25)까지 풀어오세용
+리트코드: https://leetcode.com/problemset/algorithms
+
+프로그래머스: https://programmers.co.kr/
+
+백준: https://code.plus/course/41
+1. 알파벳 찾기
+2. 문자열 분석
+3. 단어 길이 재기
+```

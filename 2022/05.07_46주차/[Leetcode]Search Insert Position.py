@@ -16,15 +16,15 @@ def solution(nums, target):
 
 # 문제풀이(2)
 def solution(nums, target):
-   
-   if target in nums:
-      return nums.index(target)
 
    count = 0
-   for i in nums:
-      print(i, count)
+   for i in range(len(nums)):
+      print(nums[i], count)
       # i가 target보다 커지면 count를 하나 증가시켜서 return
-      if i > target:
+      if nums[i] == target:
+         return i
+         
+      if nums[i] > target:
          return count
       count += 1
 

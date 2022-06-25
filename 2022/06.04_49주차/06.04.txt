@@ -1,0 +1,11 @@
+```
+(06.04) 풀어 볼 문제 3개 : (06.11)까지 풀어오세용
+리트코드: https://leetcode.com/problemset/algorithms
+1. Maximum Subarray
+2. Plus One
+3. Add Binary
+
+프로그래머스: https://programmers.co.kr/
+
+백준: https://code.plus/course/41
+```

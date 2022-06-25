@@ -40,4 +40,4 @@ def solution(n, times):
 print(solution(6, [7, 10]))   # 28
 
 
-# 참고자료: # https://happy-obok.tistory.com/10
+# 참고자료: https://happy-obok.tistory.com/10

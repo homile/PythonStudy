@@ -21,7 +21,7 @@ def solution(nums, val):
 # 문제풀이(2)
 def solution(nums, val):
    if len(nums) == 0 : return 0
-         
+   
    while nums.count(val):
       nums.remove(val)
 
