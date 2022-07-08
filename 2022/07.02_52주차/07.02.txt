@@ -1,0 +1,11 @@
+```
+(07.02) 풀어 볼 문제 3개 : (07.09)까지 풀어오세용
+리트코드: https://leetcode.com/problemset/algorithms
+1. Climbing Stairs
+2. Remove Duplicates from Sorted List
+3. Merge Sorted Array
+
+프로그래머스: https://programmers.co.kr/
+
+백준: https://code.plus/course/41
+```
