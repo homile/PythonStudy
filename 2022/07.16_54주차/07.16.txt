@@ -1,0 +1,11 @@
+```
+(07.16) 풀어 볼 문제 3개 : (07.23)까지 풀어오세용
+리트코드: https://leetcode.com/problemset/algorithms
+1. Binary Tree Preorder Traversal
+2. Duplicate Emails
+3. Customers Who Never Order
+
+프로그래머스: https://programmers.co.kr/
+
+백준: https://code.plus/course/41
+```
