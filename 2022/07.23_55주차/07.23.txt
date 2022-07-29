@@ -1,0 +1,12 @@
+```
+(07.23) 풀어 볼 문제 3개 : (07.30)까지 풀어오세용
+리트코드: https://leetcode.com/problemset/algorithms
+
+프로그래머스: https://programmers.co.kr/
+
+백준: https://code.plus/course/41
+1. 최대공약수와 최소공배수
+2. 최소공배수
+3. 소수 찾기
+4. 골드바흐의 추측
+```
