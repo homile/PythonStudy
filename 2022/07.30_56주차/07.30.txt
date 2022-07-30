@@ -1,0 +1,12 @@
+```
+(07.30) 풀어 볼 문제 4개 : (08.06)까지 풀어오세용
+리트코드: https://leetcode.com/problemset/algorithms
+1. Excel Sheet Column Title
+2. Majority Element
+3. Reverse Bits
+4. Convert Sorted Array to Binary Search Tree
+
+프로그래머스: https://programmers.co.kr/
+
+백준: https://code.plus/course/41
+```
