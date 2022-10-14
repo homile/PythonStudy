@@ -1,5 +1,5 @@
 # PythonStudy
-Python Study (21. 06. 05 ~ ing)
+Python Study (21. 06. 05 ~ 22. 08. 13.)
 
 
 <h1>Study 목표 : 프로그래머스 기준 3 level </h1> 
